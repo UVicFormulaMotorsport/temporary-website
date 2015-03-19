@@ -324,6 +324,7 @@
 	#banner
 	{
 		text-align: center;
+		background-position: center;
 	}
 	
 		#banner h2
@@ -337,6 +338,7 @@
 			font-size: 1.5em;
 			line-height: 1.5em;
 			margin: 0;
+			color: #000;
 		}
 
 		#banner ul

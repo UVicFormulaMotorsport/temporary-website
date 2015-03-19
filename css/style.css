@@ -136,7 +136,7 @@
 		section,
 		article
 		{
-			margin-bottom: 5em;
+			margin-bottom: 0em;
 		}
 		
 			section > :last-child,
@@ -168,7 +168,7 @@
 
 		footer
 		{
-			margin: 2.5em 0 0 0;
+			margin: 0.5em 0 0 0;
 		}
 
 	/* Forms */
@@ -403,9 +403,9 @@
 			input[type="reset"].alt,
 			.button.alt
 			{
-				background: #f1f1f1;
-				background: rgba(0,0,0,0.05);
-				color: #444;
+				background: #000;
+				background: rgba(0,0,0,0.25);
+				color: #fff;
 			}
 
 				input[type="button"].alt:hover,
@@ -414,7 +414,7 @@
 				.button.alt:hover
 				{
 					background: #e8e8e8;
-					background: rgba(0,0,0,0.085);
+					background: rgba(0,0,0,0.35);
 				}
 
 				input[type="button"].alt:active,
@@ -499,6 +499,11 @@
 			box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.015);
 			box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.05);
 		}
+		
+			.box.gray
+			{
+				background: #f8f8f8;
+			}
 		
 		.blackbox
 		{
@@ -673,7 +678,7 @@
 	
 	#banner p
 	{
-		color: #555;
+		color: #444;
 	}
 	
 /*********************************************************************************/
