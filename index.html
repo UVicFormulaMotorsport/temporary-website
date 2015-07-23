@@ -2,6 +2,24 @@
 
 <html>
 	<head>
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
 		<title>UVic FSAE</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
@@ -12,6 +30,21 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+
+		<!--FACEBOOK WIDGET -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!--Instagram WIDGET -->
+		<!-- INSTANSIVE WIDGET -->
+		<script src="//instansive.com/widget/js/instansive.js"></script>
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -21,13 +54,17 @@
 	</head>
 	<body class="homepage">
 
+
+
+		
+
 		<!-- Header -->
 			<div id="header-wrapper">
 				<header id="header" class="container">
 				
 					<!-- Logo -->
 						<div id="logo">
-							<img src="images/logo2.png" alt="UVic FSAE Formula Motorsports"/>
+							<img href="/" src="images/logo2.png" alt="UVic FSAE Formula Motorsports"/>
 					<!--	<h1><a href="index.html">UVic FSAE</a></h1>
 							<span>FSAE</span>	-->
 						</div>
@@ -88,16 +125,37 @@
 			<div id="features-wrapper">
 				<div class="container">
 					<div class="row">
-						<div class="12u">
+						<div class="7u">
 							<section class="box feature">
 								<a class="image featured" href="comp.html"><img src="images/news/car_comp_2015.jpg" alt="2015 UVic Formula Motorsports Entry at FSAE Michigan" /></a>
 								<div class="inner">
-									<h2><a href="comp.html">2015 FSAE Competition, Michigan International Speedway</a></h2>
+									<h2><a href="comp.html">2015 FSAE Competition<br><br>Michigan International Speedway</a></h2>
 									<p>The team is proud to announce that we officially placed 20th overall at the 2015 FSAE Student Design Competition at Michigan International Speedway!  Thanks so much to our sponsors for making it possible!</p>
 								</div>
 							</section>
 						</div>
+
+						<div class="5u">
+							<div class="box feature fb-page" data-href="https://www.facebook.com/UVicFSae" data-width="500" data-height="570" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+								<div class="fb-xfbml-parse-ignore">
+									<blockquote cite="https://www.facebook.com/UVicFSae">
+										<a href="https://www.facebook.com/UVicFSae">UVic Formula SAE</a>
+									</blockquote>
+								</div>
+							</div>
+						</div>
 					</div>
+
+					<div class="row">
+						<div class="7u">
+							<iframe src="//instansive.com/widgets/452ce450f5dcc296ce42f5ee81e0fcae15035301.html" id="instansive_452ce450f5" name="instansive_452ce450f5"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+						</div>
+						<div class="5u">
+							<a class="twitter-timeline" href="https://twitter.com/UVicFSAE" data-widget-id="623924992590221312">Tweets by @UVicFSAE</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+					</div>
+
 					<div class="row">
 						<!-- NEWS POSTS -->
 						<div class="4u">
@@ -108,7 +166,7 @@
 											<h2>Thank you to Eagle Machine</h2>
 											<p></p>
 										</header>
-										<p>A big thank you to Eagle Machine for our new stub axles, as well as the facilitation of foam cores for aero components</p>
+										<p>A big thank you to Eagle Machine for our new stub axles, as well as the facilitation of foam cores for aero components.</p>
 									</div>
 								</section>
 
@@ -121,7 +179,7 @@
 											<h2>Thanks to Prototype Equipment Design</h2>
 											<p></p>
 										</header>
-										<p>We’d like to thank Prototype Equipment Design for producing the components for our new Torsen-based aluminum differential</p>
+										<p>We would like to thank Prototype Equipment Design for producing the components for our new Torsen-based aluminum differential.</p>
 									</div>
 								</section>
 						</div>
@@ -133,7 +191,7 @@
 											<h2>Thanks to the Duncan Flying Club</h2>
 											<p></p>
 										</header>
-										<p>We would like to thank the <a href="http://www.duncanflyingclub.org/">Duncan Flying Club</a> for letting us use their excellent runway at Duncan airport for testing our aero package</p>
+										<p>We would like to thank the <a href="http://www.duncanflyingclub.org/">Duncan Flying Club</a> for letting us use their excellent runway at Duncan airport for testing our aero package.</p>
 									</div>
 								</section>
 
@@ -150,10 +208,10 @@
 							<!-- Sidebar -->
 								<div id="sidebar">
 									<section class="widget thumbnails">
-										<h3>2014 Car:</h3>
+										<h3>2015 Car:</h3>
 										<div class="grid">
 											<div class="row no-collapse 50%">
-												<div class="12u"><a href="#" class="image fit"><img src="images/car2014.jpg" alt="Our beautiful car" /></a></div>
+												<div class="12u"><a href="#" class="image fit"><img src="images/car2015.jpg" alt="UV15" /></a></div>
 											</div>
 										</div>
 									</section>
@@ -168,7 +226,7 @@
 									
 									<p>The <strong>UVic Formula Motorsports Team</strong> is a student run design and building competition to make the best car to enter into the <a href="http://students.sae.org/cds/formulaseries/fsae/">Student Formula SAE Competition</a>.</p>
 									<p>We are pleased that you're interested in the team, as we are always looking to increase our exposure and obtain new sponsorship opportunitites.  If you're interested in possibly sponsoring our team, please contact us for a full information package.</p>
-									<a href="documents/SponsorpackageFinal.compressed.pdf" download class="button icon fa-file-pdf-o">Sponsorship Package Brochure</a>
+									<a href="documents/UV16_Spon_Pak.pdf" download class="button icon fa-file-pdf-o">Sponsorship Package Brochure</a>
 									&nbsp;&nbsp;<a href="Mailto:fsaeadmn@uvic.ca" download class="button icon fa-bullhorn">Contact Us</a>
 								</section>
 							</div>
