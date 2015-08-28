@@ -40,6 +40,12 @@
 				font-size: 2.25em;
 				padding: 0.8em 0.9em;
 			}
+			
+			.button.bigtitle
+			{
+				font-size: 2.00em;
+				padding: 0.5em 0.6em;
+			}
 
 			.button.icon
 			{
