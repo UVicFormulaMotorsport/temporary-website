@@ -60,6 +60,11 @@
 				font-size: 2em;
 				padding: 0.85em 1em 0.85em 1em;
 			}
+			.button.bigtitle
+			{
+				font-size: 2em;
+				padding: 0.5em 0.6em 0.5em 0.6em;
+			}
 
 /*********************************************************************************/
 /* Wrappers                                                                      */
